@@ -88,4 +88,5 @@ This project is for educational and portfolio purposes. Data sources are public 
 ## 🙏 References
 
 This project was inspired by a Tableau tutorial created by [Data With Baraa](https://www.youtube.com/watch?v=dahrmqT5GD4).  
-I followed the tutorial to build the base dashboards, and then customized it further by adding new KPIs, filters, and insights to make it my own.
+I followed the tutorial to build the base dashboards and then customized it further by adding new KPIs, filters, and insights to get handson experience of Tableau.
+
