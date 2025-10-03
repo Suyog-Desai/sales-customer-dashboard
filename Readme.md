@@ -47,7 +47,7 @@ This project was developed based on a Tableau user story for **Sales Managers, E
 - Interactive charts as filters  
 - Filters by product (category, subcategory) and location (region, state, city)  
 
-📑 For the full detailed requirements, see [report/requirements.md](report/requirements.md).
+📑 For the full detailed requirements, see [Source/requirements.md](Source/requirements.md).
 
 ---
 
@@ -84,4 +84,5 @@ This project was developed based on a Tableau user story for **Sales Managers, E
 
 ## Disclaimer
 This project is for educational and portfolio purposes. Data sources are public and may not reflect real company performance.
+
 
