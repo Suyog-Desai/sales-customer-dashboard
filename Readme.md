@@ -48,6 +48,6 @@ This project showcases an **interactive Tableau dashboard** built to analyze sal
 
 ---
 
-## Disclaimenr
+## Disclaimer
 This project is for educational and portfolio purposes. Data sources are public and may not reflect real company performance.
 
