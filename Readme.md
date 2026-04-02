@@ -1,95 +1,97 @@
-# 📊 Tableau Sales & Customer Dashboard
+# Tableau Sales & Customer Dashboard
 
-This project showcases an **interactive Tableau dashboard** built to analyze sales performance and customer behavior.  
-It demonstrates the complete workflow: **data sourcing → preparation → visualization → insights**.  
+An interactive Tableau dashboard built to analyze sales performance and customer behavior across 4 years of data. Covers the complete workflow: data sourcing, preparation, visualization, and insights delivery.
 
-The project is based on a **user story and business requirements** that simulate what stakeholders such as sales managers, executives, and marketing teams need to make informed decisions.  
+Built around a structured user story simulating real stakeholder requirements from sales managers, executives, and marketing teams.
 
----
-
-## 🚀 Dashboard Link  
-🔗 [View Live Dashboard on Tableau Public](https://public.tableau.com/views/SalesCustomerDashboard_17595119079390/SalesDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+📊 [View Live Dashboard on Tableau Public](https://public.tableau.com/views/SalesCustomerDashboard_17595119079390/SalesDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) &nbsp;|&nbsp; 📁 [Tableau Workbook](tableau/)
 
 ---
 
-## 📂 Project Structure  
+## Dashboard Overview
 
-- **source/** → Raw and processed datasets  
-- **tableau/** → Tableau workbook files (`.twb` / `.twbx`)  
-- **output/** → Exported visuals (screenshots, PDFs)  
-- **report/** → Documentation or project write-up  
+**Dataset:** 4 years of sales data | 793 customers | 3 regions | 17 product subcategories
 
----
-
-## 📋 User Story & Requirements
-
-This project was developed based on a Tableau user story for **Sales Managers, Executives, and Marketing Teams** to analyze sales performance and customer behavior.  
-
-### 🔹 Sales Dashboard
-**Purpose:** Provide an overview of sales metrics and trends to analyze YoY performance.  
-**Key Requirements:**
-- KPI Overview → total sales, profit, quantity (current vs previous year)  
-- Sales Trends → monthly data for KPIs, highlight highest/lowest months  
-- Product Subcategory Comparison → sales vs profit by subcategory  
-- Weekly Trends → weekly sales & profit, compare against averages  
-
-### 🔹 Customer Dashboard
-**Purpose:** Help marketing teams understand customer data, trends & behaviors.  
-**Key Requirements:**
-- KPI Overview → customers, sales per customer, orders (current vs previous year)  
-- Customer Trends → monthly breakdown with high/low highlights  
-- Distribution → by number of orders per customer  
-- Top 10 Customers → by profit, with rank, orders, sales, profit, last order date  
-
-### 🔹 Design & Interactivity
-- Year selection for historical analysis  
-- Easy navigation between dashboards  
-- Interactive charts as filters  
-- Filters by product (category, subcategory) and location (region, state, city)  
-
-📑 For the full detailed requirements, see [Source/requirements.md](Source/requirements.md).
+Two interconnected dashboards with shared filters, year selection, and cross-filtering between visuals.
 
 ---
 
-## 📊 Features  
+## Sales Dashboard
 
-- Sales analysis by **region, product category, and customer segment**  
-- Year-over-Year KPI tracking (revenue, profit, orders)  
-- Customer behavior and segmentation insights  
-- Interactive filters for drill-down exploration
-- Comparative analysis across product subcategories and top customers   
+**Purpose:** Overview of sales metrics and trends to analyze year-over-year performance.
 
----
-
-## 🛠 Tools Used  
-
-- **Tableau** → Visualization & dashboard creation  
-- **Excel/CSV** → Data source  
----
-
-## 📷 Dashboard Preview  
-
-![Dashboard Screenshot](Viz/Sales_Dashboard.png)  
+**What it includes:**
+- KPI Overview: total sales, profit, and quantity for current vs previous year
+- Sales Trends: monthly data with highest and lowest months highlighted
+- Product Subcategory Comparison: sales vs profit side by side
+- Weekly Trends: weekly sales and profit compared against averages
 
 ---
 
-## 📑 Key Insights  
+## Customer Dashboard
 
-- Regional performance highlights strengths and underperforming areas  
-- Top product categories drive the majority of revenue  
-- Customer segmentation enables more targeted strategies  
-- KPIs help track business performance efficiently  
+**Purpose:** Help marketing teams understand customer data, trends, and behaviors.
 
----
-
-## Disclaimer
-This project is for educational and portfolio purposes. Data sources are public and may not reflect real company performance.
+**What it includes:**
+- KPI Overview: total customers, sales per customer, and orders vs previous year
+- Customer Trends: monthly breakdown with high and low highlights
+- Order Distribution: customers segmented by number of orders
+- Top 10 Customers: ranked by profit with orders, sales, profit, and last order date
 
 ---
 
-## 🙏 References
+## Interactivity and Design
 
-This project was inspired by a Tableau tutorial created by [Data With Baraa](https://www.youtube.com/watch?v=dahrmqT5GD4).  
-I followed the tutorial to build the base dashboards and then customized it further by adding new KPIs, filters, and insights to get handson experience of Tableau.
+- Year selector for historical analysis across all visuals
+- Easy navigation between Sales and Customer dashboards
+- Interactive charts act as filters
+- Filter by product category, subcategory, region, state, and city
 
+---
 
+## Key Insights
+
+- Regional performance highlights strong markets and underperforming areas
+- Top product categories drive the majority of revenue
+- Customer segmentation reveals high-value vs at-risk customer groups
+- YoY KPI tracking surfaces seasonal trends and growth opportunities
+
+---
+
+## Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| Tableau | Dashboard design and visualization |
+| Excel / CSV | Data source and preparation |
+
+---
+
+## Project Structure
+
+```
+sales-customer-dashboard/
+├── Source/
+│   ├── dataset.csv              # Raw sales data
+│   └── requirements.md          # Full user story and business requirements
+├── tableau/
+│   └── Sales_Dashboard.twbx     # Tableau workbook
+├── output/
+│   └── dashboard_preview.png    # Screenshot exports
+└── README.md
+```
+
+---
+
+## What I Would Add Next
+
+- Connect to a live SQL database instead of static CSV for real-time refresh
+- Add forecasting using Tableau's built-in trend models
+- Expand customer segmentation with RFM scoring
+- Build a third dashboard focused on regional manager view with row-level filtering
+
+---
+
+## Author
+
+**Suyog Desai** - [GitHub](https://github.com/Suyog-Desai) · [LinkedIn](https://linkedin.com/in/suyog-desai) · [Portfolio](https://suyogdesai.framer.website)
